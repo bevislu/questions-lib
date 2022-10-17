@@ -1,0 +1,11 @@
+#jwt:
+#  secret: abcdefg
+#spring:
+#  security:
+#    filter:
+#      order: 10
+#    user:
+#      password: Test!123
+rsa:
+  private-key: classpath:certs/private.pem
+  public-key: classpath:certs/public.pem
